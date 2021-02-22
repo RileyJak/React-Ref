@@ -1,0 +1,43 @@
+=== React Refrence BOOK ===
+React Demos from App Design @ Columbia College Chicago w/ Mike Hadley
+----------------------------------------------------------------------
+
+General Notes
+---------------
+Create new React Base - npx create-react-app name-of-file
+
+
+
+Questions
+---------------
+
+
+
+
+Resource Links
+---------------
+Mike Hadley Youtube: https://www.youtube.com/user/mikewesthad/playlists
+Class Starter/Solution Files: https://github.com/mikewesthad/SP21-AppDesign
+
+
+Code Links 
+---------------
+input types - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+
+
+HotKeys
+---------------
+comment - cntrl / or applekey /
+function setup (emmet abbrv) - rcfe 
+
+
+Design Links
+---------------
+transform property - https://www.w3schools.com/cssref/css3_pr_transform.asp 
+
+
+API'S
+---------------
+
+
+

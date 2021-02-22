@@ -1,0 +1,37 @@
+.button-speak {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+    font-size: .6rem;
+    background: skyblue;
+    color: darkolivegreen;
+    outline: none;
+    border: transparent;
+    width: 225px;
+    border-radius: 8px;
+    margin-left: 3rem;
+}
+
+.button-speak:hover {
+    background: rgb(68, 151, 184);
+    color: whitesmoke;
+    opacity: 1;
+}
+
+.button-speak:active {
+    background: rgb(56, 126, 153);
+    color: whitesmoke;
+    opacity: 1;
+}
+
+.input {
+    border: 2px solid darkolivegreen;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.lab {
+    font-size: .75rem;
+    margin-left: 3rem;
+    margin-right: .25rem;
+}

@@ -1,0 +1,55 @@
+  @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+  html {
+    font-size: 22px;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+
+  * {
+    font-family: inherit;
+  }
+
+  body {
+    max-width: 800px;
+    margin: 0 auto;
+    background: url("./assets/images/double-bubble-outline.png");
+    color: darkolivegreen;
+  }
+
+  nav {
+    margin: .75rem;
+    margin-top: 1.25rem;
+    text-align: center;
+    color: darkolivegreen;
+  }
+
+  .int-nav {
+    font-size: .8rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(68, 151, 184);
+    margin: .25rem;
+  }
+
+  a:hover {
+    color: rgb(48, 110, 134);
+    text-decoration: underline 2px darkolivegreen;
+  }
+
+  footer {
+    font-size: .5rem;
+    text-align: center;
+    margin-bottom: .5rem;
+    color: rgba(128, 128, 128, 0.753);
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-bottom: .5rem;
+  }

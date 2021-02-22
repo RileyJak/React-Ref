@@ -1,0 +1,28 @@
+#img-beach {
+    border-radius: 2rem;
+}
+
+#quote-back {
+    background: linear-gradient(#132266, #4B7FCF, #57C4C4);
+    color: white;
+    height: 4rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.emoji-list {
+    list-style: none;
+}
+
+.emoji-list li::before {
+    content: "✨";
+    padding-right: 0.5rem;
+}
+
+.holder {
+    margin: 3rem;
+}
+
+audio {
+    margin-top: .5rem;
+}
