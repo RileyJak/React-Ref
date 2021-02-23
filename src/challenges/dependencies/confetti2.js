@@ -80,8 +80,8 @@ function Confetti2() {
 
 			<Confetti
 				numberOfPieces={numPieces}
-				gravity={0.2}
-				wind={0.05}
+				gravity={gravity}
+				wind={wind}
 				run={isRunning}
 				confettiSource={{
 					x: window.innerWidth / 2,
