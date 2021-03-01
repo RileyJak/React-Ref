@@ -1,23 +1,18 @@
 import { Link } from "react-router-dom";
-import ButtonClick from "../../../demos/state/button-click";
-import SpeakForm from "../../../demos/state/speak-form";
+import Todos from "../../../demos/arrays/todos";
 
-function StateDemo() {
+function ArrayDemo() {
 	return (
 		<>
-			<h1>State Demo</h1>
+			<h1>Array Rendering Demo</h1>
 			<nav className="int-nav">
 				<Link to="/propsdemo">Props</Link> | <Link to="/statedemo">State</Link>{" "}
 				| <Link to="/dependenciesdemo">Dependencies</Link> |{" "}
 				<Link to="/arrayrenderingdemo">Array Rendering</Link>
 			</nav>
-
-			<h2>Stateful Buttons</h2>
-			<ButtonClick />
-			<h2>Song Form</h2>
-			<SpeakForm />
+			<Todos />
 		</>
 	);
 }
 
-export default StateDemo;
+export default ArrayDemo;

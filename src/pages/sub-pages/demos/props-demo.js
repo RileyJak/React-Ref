@@ -9,7 +9,8 @@ function PropsDemo() {
 			<h1>Props Demo</h1>
 			<nav className="int-nav">
 				<Link to="/propsdemo">Props</Link> | <Link to="/statedemo">State</Link>{" "}
-				| <Link to="/dependenciesdemo">Dependencies</Link>
+				| <Link to="/dependenciesdemo">Dependencies</Link> |{" "}
+				<Link to="/arrayrenderingdemo">Array Rendering</Link>
 			</nav>
 			<Welcome name={"Partner"} greeting={"Howdy"} />
 			<h2>Singing Buttons</h2>

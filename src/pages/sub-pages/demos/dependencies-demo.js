@@ -8,7 +8,8 @@ function DependDemo() {
 			<h1>Dependencies Demo</h1>
 			<nav className="int-nav">
 				<Link to="/propsdemo">Props</Link> | <Link to="/statedemo">State</Link>{" "}
-				| <Link to="/dependenciesdemo">Dependencies</Link>
+				| <Link to="/dependenciesdemo">Dependencies</Link> |{" "}
+				<Link to="/arrayrenderingdemo">Array Rendering</Link>
 			</nav>
 
 			<h2>Tone JS Music</h2>

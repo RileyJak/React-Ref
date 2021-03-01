@@ -13,6 +13,7 @@ import StateChallenges from "./pages/sub-pages/challenges/state-challenges";
 import DependChallenge from "./pages/sub-pages/challenges/dependencies-challenges";
 import Nav from "./common/nav";
 import Footer from "./common/footer";
+import ArrayDemo from "./pages/sub-pages/demos/array-demo";
 
 function App() {
 	return (
@@ -52,6 +53,9 @@ function App() {
 					</Route>
 					<Route path="/dependenciesdemo">
 						<DependDemo />
+					</Route>
+					<Route path="/arrayrenderingdemo">
+						<ArrayDemo />
 					</Route>
 					{/* Challenges internal */}
 					<Route path="/propschallenges">

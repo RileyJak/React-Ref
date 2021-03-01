@@ -18,7 +18,7 @@ function CustomIncrement() {
 		setInc(1);
 	};
 
-	const content = inc > 0 ? `Add ${inc}` : `Subtract ${inc}`;
+	const content = inc > 0 ? `Add ${inc}` : `Subtract ${Math.abs(inc)}`;
 
 	return (
 		<>

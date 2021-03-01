@@ -7,7 +7,7 @@ function ClickButton({ type }) {
 	const incrementCount = () => setClickCount(clickCount + 1);
 
 	return (
-		<button class="button" onClick={incrementCount}>
+		<button className="button" onClick={incrementCount}>
 			{type}
 			{clickCount}
 		</button>

@@ -1,0 +1,57 @@
+.end-screen {
+    text-align: center;
+}
+
+.end-screen__trophy {
+    font-size: 8rem;
+    margin: 1rem;
+}
+
+.end-screen__stat-container {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 2.5rem 0 1rem 0;
+}
+
+.end-screen__stat {
+    width: 300px;
+    text-align: center;
+    color: whitesmoke;
+    background: darkolivegreen;
+    padding: 0.6rem 0.8rem;
+    border-radius: 0.5rem;
+    margin: 0 0.25rem;
+    font-size: 1.5rem;
+}
+
+.end-screen__stat-label {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.end-screen__stat-value {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.end-screen__button {
+    padding: 0.8rem 1.8rem;
+    width: 300px;
+    font-size: 1.5rem;
+    margin-top: .75rem;
+    background: rgb(68, 151, 184);
+    color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+}
+
+.end-screen__button:hover {
+    background: rgb(44, 114, 158);
+    transform: rotate(3deg);
+}
+
+.end-screen__button:focus {
+    outline: transparent;
+}

@@ -1,9 +1,10 @@
 import React from "react";
+import Game from "../game/game";
 
 function QuizGamePage() {
 	return (
 		<>
-			<h1>Quiz Game</h1>
+			<Game />
 		</>
 	);
 }

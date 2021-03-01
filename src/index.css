@@ -1,6 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
   html {
-    font-size: 22px;
     font-family: 'IBM Plex Sans', sans-serif;
   }
 
@@ -13,17 +12,28 @@
     margin: 0 auto;
     background: url("./assets/images/double-bubble-outline.png");
     color: darkolivegreen;
+    font-size: 22px;
+  }
+
+  .footer {
+    font-size: .7rem;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.753);
+    left: 0;
+    bottom: 0;
+    width: 100%;
   }
 
   nav {
     margin: .75rem;
-    margin-top: 1.25rem;
+    margin-top: 2.25rem;
     text-align: center;
     color: darkolivegreen;
+    font-size: 1.55rem;
   }
 
   .int-nav {
-    font-size: .8rem;
+    font-size: 1.35rem;
   }
 
   a {
@@ -35,13 +45,6 @@
   a:hover {
     color: rgb(48, 110, 134);
     text-decoration: underline 2px darkolivegreen;
-  }
-
-  footer {
-    font-size: .5rem;
-    text-align: center;
-    margin-bottom: .5rem;
-    color: rgba(128, 128, 128, 0.753);
   }
 
   h1 {
