@@ -6,7 +6,7 @@ import triviaData from "./trivia-data";
 import useSound from "use-sound";
 import correctSFX from "../assets/sounds/correct.wav";
 import incorrectSFX from "../assets/sounds/wrong.mp3";
-import { start } from "tone";
+import { start, Volume } from "tone";
 
 function Game() {
 	const [gameState, setGameState] = useState({
@@ -50,8 +50,8 @@ function Game() {
 		}
 	};
 
-	const [correct] = useSound(correctSFX);
-	const [incorrect] = useSound(incorrectSFX);
+	const [correct] = useSound(correctSFX, { volume: 0.25 });
+	const [incorrect] = useSound(incorrectSFX, { volume: 0.25 });
 
 	const onAnswerSelected = (wasPlayerCorrect) => {
 		if (wasPlayerCorrect) {
