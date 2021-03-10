@@ -9,7 +9,8 @@ function StateDemo() {
 			<nav className="int-nav">
 				<Link to="/propsdemo">Props</Link> | <Link to="/statedemo">State</Link>{" "}
 				| <Link to="/dependenciesdemo">Dependencies</Link> |{" "}
-				<Link to="/arrayrenderingdemo">Array Rendering</Link>
+				<Link to="/arrayrenderingdemo">Array Rendering</Link> |{" "}
+				<Link to="/apidemo">API </Link>
 			</nav>
 
 			<h2>Stateful Buttons</h2>

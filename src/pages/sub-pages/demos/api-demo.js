@@ -1,24 +1,18 @@
 import { Link } from "react-router-dom";
-import MusicalButton from "../../../demos/dependencies/musical-button";
-import ThrowConfetti from "../../../demos/dependencies/confetti";
 
-function DependDemo() {
+function APIdemo() {
 	return (
 		<>
-			<h1>Dependencies Demo</h1>
+			<h1>API Demo</h1>
 			<nav className="int-nav">
 				<Link to="/propsdemo">Props</Link> | <Link to="/statedemo">State</Link>{" "}
 				| <Link to="/dependenciesdemo">Dependencies</Link> |{" "}
 				<Link to="/arrayrenderingdemo">Array Rendering</Link> |{" "}
 				<Link to="/apidemo">API</Link>
 			</nav>
-
-			<h2>Tone JS Music</h2>
-			<MusicalButton>Play Some Beats 🎧</MusicalButton>
-			<h2>Confetti</h2>
-			<ThrowConfetti />
+			<h3>See code in demo folder: done in plain HTML/CSS/JS</h3>
 		</>
 	);
 }
 
-export default DependDemo;
+export default APIdemo;

@@ -1,22 +1,18 @@
 import { Link } from "react-router-dom";
-import Confetti2 from "../../../challenges/dependencies/confetti2";
-import DataViz from "../../../challenges/dependencies/data-viz";
 
-function DependChallenge() {
+function APIchallenge() {
 	return (
 		<>
-			<h1>Dependencies Challenges</h1>
+			<h1>API Challenge</h1>
 			<nav className="int-nav">
 				<Link to="/propschallenges">Props</Link> |{" "}
 				<Link to="/statechallenges">State</Link> |{" "}
 				<Link to="/dependencieschallenges">Dependencies</Link> |{" "}
 				<Link to="/apichallenge">API</Link>
 			</nav>
-
-			<Confetti2 />
-			<DataViz />
+			<h3>See code in challenges folder: done in plain HTML/CSS/JS</h3>
 		</>
 	);
 }
 
-export default DependChallenge;
+export default APIchallenge;

@@ -9,7 +9,8 @@ function PropChallenges() {
 			<nav className="int-nav">
 				<Link to="/propschallenges">Props</Link> |{" "}
 				<Link to="/statechallenges">State</Link> |{" "}
-				<Link to="/dependencieschallenges">Dependencies</Link>
+				<Link to="/dependencieschallenges">Dependencies</Link> |{" "}
+				<Link to="/apichallenge">API</Link>
 			</nav>
 
 			<h2>Alert Buttons</h2>

@@ -14,6 +14,8 @@ import DependChallenge from "./pages/sub-pages/challenges/dependencies-challenge
 import Nav from "./common/nav";
 import Footer from "./common/footer";
 import ArrayDemo from "./pages/sub-pages/demos/array-demo";
+import APIdemo from "./pages/sub-pages/demos/api-demo";
+import APIchallenge from "./pages/sub-pages/challenges/api-challenges";
 
 function App() {
 	return (
@@ -57,6 +59,10 @@ function App() {
 					<Route path="/arrayrenderingdemo">
 						<ArrayDemo />
 					</Route>
+					<Route path="/apidemo">
+						<APIdemo />
+					</Route>
+
 					{/* Challenges internal */}
 					<Route path="/propschallenges">
 						<PropChallenges />
@@ -66,6 +72,9 @@ function App() {
 					</Route>
 					<Route path="/dependencieschallenges">
 						<DependChallenge />
+					</Route>
+					<Route path="/apichallenge">
+						<APIchallenge />
 					</Route>
 					{/* Extra Credit internal */}
 				</Switch>
