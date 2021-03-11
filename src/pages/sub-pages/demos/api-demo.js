@@ -10,7 +10,9 @@ function APIdemo() {
 				<Link to="/arrayrenderingdemo">Array Rendering</Link> |{" "}
 				<Link to="/apidemo">API</Link>
 			</nav>
-			<h3>See code in demo folder: done in plain HTML/CSS/JS</h3>
+			<h3>Demo done in plain HTML/CSS/JS:</h3>
+			<p> See code: src/demos/api/</p>
+			<p>Run code: src/demos/api/index.html and run live server </p>
 		</>
 	);
 }

@@ -2,13 +2,11 @@ import React, { useState } from "react";
 import EndScreen from "./end-screen";
 import Stats from "./stats";
 import TriviaItem from "./trivia-item";
-import triviaData from "./trivia-data";
 import useSound from "use-sound";
 import correctSFX from "../assets/sounds/correct.wav";
 import incorrectSFX from "../assets/sounds/wrong.mp3";
-import { start, Volume } from "tone";
 
-function Game() {
+function Game({ triviaData }) {
 	const [gameState, setGameState] = useState({
 		score: 0,
 		triviaIndex: 0,

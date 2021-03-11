@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Dog from "../../../challenges/api/dog-challenge";
 
 function APIchallenge() {
 	return (
@@ -10,7 +11,12 @@ function APIchallenge() {
 				<Link to="/dependencieschallenges">Dependencies</Link> |{" "}
 				<Link to="/apichallenge">API</Link>
 			</nav>
-			<h3>See code in challenges folder: done in plain HTML/CSS/JS</h3>
+			<h3>Challenge done in plain HTML/CSS/JS:</h3>
+			<p> See code: src/challenge/api/fetch-challenge.js</p>
+			<p>Run code: src/demos/api/index.html and run live server </p>
+
+			<h3>Challenge done in React</h3>
+			<Dog />
 		</>
 	);
 }
