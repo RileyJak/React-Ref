@@ -8,16 +8,13 @@ function FireChallenge() {
 
 			console.log(`Found ${snapshot.size}x user(s)`);
 			const docs = snapshot.docs;
-
-			const { firstName, lastName, highScore } = docs;
-
 			// loop over array to print out id and data
 			docs.forEach((docSnapshot) => {
 				console.log(
 					`User with ID: ${docSnapshot.id}
 					--------
-					Name: ${firstName}  ${lastName}
-					High Score: ${highScore}`
+					Name: ${docSnapshot.get("firstName")}  ${docSnapshot.get("lastName")}
+					High Score: ${docSnapshot.get("highScore")}`
 				);
 			});
 		} catch (err) {
