@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import Dog from "../../../challenges/api/dog-challenge";
+import FireChallenge from "../../../challenges/firesbase/fire-challenge";
 
-function APIchallenge() {
+function FireStore() {
 	return (
 		<>
-			<h1>API Challenge</h1>
+			<h1>Firestore Challenge</h1>
 			<nav className="int-nav">
 				<Link to="/propschallenges">Props</Link> |{" "}
 				<Link to="/statechallenges">State</Link> |{" "}
@@ -12,14 +12,11 @@ function APIchallenge() {
 				<Link to="/apichallenge">API</Link> |{" "}
 				<Link to="/firestorechallenge">Firestore</Link>
 			</nav>
-			<h3>Challenge done in plain HTML/CSS/JS:</h3>
-			<p> See code: src/challenge/api/fetch-challenge.js</p>
-			<p>Run code: src/demos/api/index.html and run live server </p>
 
-			<h3>Challenge done in React</h3>
-			<Dog />
+			<FireChallenge />
+			<h3>look in the console 👀 </h3>
 		</>
 	);
 }
 
-export default APIchallenge;
+export default FireStore;

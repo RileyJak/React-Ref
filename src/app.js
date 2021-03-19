@@ -16,6 +16,8 @@ import Footer from "./common/footer";
 import ArrayDemo from "./pages/sub-pages/demos/array-demo";
 import APIdemo from "./pages/sub-pages/demos/api-demo";
 import APIchallenge from "./pages/sub-pages/challenges/api-challenges";
+import FireStoreDemo from "./pages/sub-pages/demos/firestore-demo";
+import FireStore from "./pages/sub-pages/challenges/firebase-challenge";
 
 function App() {
 	return (
@@ -62,6 +64,9 @@ function App() {
 					<Route path="/apidemo">
 						<APIdemo />
 					</Route>
+					<Route path="/firestoredemo">
+						<FireStoreDemo />
+					</Route>
 
 					{/* Challenges internal */}
 					<Route path="/propschallenges">
@@ -75,6 +80,9 @@ function App() {
 					</Route>
 					<Route path="/apichallenge">
 						<APIchallenge />
+					</Route>
+					<Route path="/firestorechallenge">
+						<FireStore />
 					</Route>
 					{/* Extra Credit internal */}
 				</Switch>

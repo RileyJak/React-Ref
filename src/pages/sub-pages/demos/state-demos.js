@@ -10,7 +10,8 @@ function StateDemo() {
 				<Link to="/propsdemo">Props</Link> | <Link to="/statedemo">State</Link>{" "}
 				| <Link to="/dependenciesdemo">Dependencies</Link> |{" "}
 				<Link to="/arrayrenderingdemo">Array Rendering</Link> |{" "}
-				<Link to="/apidemo">API </Link>
+				<Link to="/apidemo">API</Link> |{" "}
+				<Link to="/firestoredemo">Firestore</Link>
 			</nav>
 
 			<h2>Stateful Buttons</h2>
