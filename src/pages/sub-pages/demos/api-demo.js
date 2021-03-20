@@ -9,7 +9,7 @@ function APIdemo() {
 				| <Link to="/dependenciesdemo">Dependencies</Link> |{" "}
 				<Link to="/arrayrenderingdemo">Array Rendering</Link> |{" "}
 				<Link to="/apidemo">API</Link> |{" "}
-				<Link to="/firestoredemo">Firestore</Link>
+				<Link to="/firestoredemo">Firestore</Link> |{" "}
 			</nav>
 			<h3>Demo done in plain HTML/CSS/JS:</h3>
 			<p> See code: src/demos/api/</p>

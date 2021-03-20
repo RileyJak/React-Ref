@@ -18,6 +18,7 @@ import APIdemo from "./pages/sub-pages/demos/api-demo";
 import APIchallenge from "./pages/sub-pages/challenges/api-challenges";
 import FireStoreDemo from "./pages/sub-pages/demos/firestore-demo";
 import FireStore from "./pages/sub-pages/challenges/firebase-challenge";
+import HookChall from "./pages/sub-pages/challenges/hook-challenge";
 
 function App() {
 	return (
@@ -83,6 +84,9 @@ function App() {
 					</Route>
 					<Route path="/firestorechallenge">
 						<FireStore />
+					</Route>
+					<Route path="/hookchallenge">
+						<HookChall />
 					</Route>
 					{/* Extra Credit internal */}
 				</Switch>

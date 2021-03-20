@@ -11,9 +11,8 @@ function StateDemo() {
 				| <Link to="/dependenciesdemo">Dependencies</Link> |{" "}
 				<Link to="/arrayrenderingdemo">Array Rendering</Link> |{" "}
 				<Link to="/apidemo">API</Link> |{" "}
-				<Link to="/firestoredemo">Firestore</Link>
+				<Link to="/firestoredemo">Firestore</Link> |{" "}
 			</nav>
-
 			<h2>Stateful Buttons</h2>
 			<ButtonClick />
 			<h2>Song Form</h2>

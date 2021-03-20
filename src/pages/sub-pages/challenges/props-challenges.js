@@ -11,7 +11,8 @@ function PropChallenges() {
 				<Link to="/statechallenges">State</Link> |{" "}
 				<Link to="/dependencieschallenges">Dependencies</Link> |{" "}
 				<Link to="/apichallenge">API</Link> |{" "}
-				<Link to="/firestorechallenge">Firestore</Link>
+				<Link to="/firestorechallenge">Firestore</Link> |{" "}
+				<Link to="/hookchallenge">Hooks</Link>
 			</nav>
 
 			<h2>Alert Buttons</h2>

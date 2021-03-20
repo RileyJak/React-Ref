@@ -12,7 +12,7 @@ function PropsDemo() {
 				| <Link to="/dependenciesdemo">Dependencies</Link> |{" "}
 				<Link to="/arrayrenderingdemo">Array Rendering</Link> |{" "}
 				<Link to="/apidemo">API</Link> |{" "}
-				<Link to="/firestoredemo">Firestore</Link>
+				<Link to="/firestoredemo">Firestore</Link> |{" "}
 			</nav>
 			<Welcome name={"Partner"} greeting={"Howdy"} />
 			<h2>Singing Buttons</h2>

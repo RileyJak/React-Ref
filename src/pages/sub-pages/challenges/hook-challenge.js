@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import Confetti2 from "../../../challenges/dependencies/confetti2";
-import DataViz from "../../../challenges/dependencies/data-viz";
+import DogHook from "../../../challenges/hooks/dog";
 
-function DependChallenge() {
+function HookChall() {
 	return (
 		<>
-			<h1>Dependencies Challenges</h1>
+			<h1>Hook Challenge</h1>
 			<nav className="int-nav">
 				<Link to="/propschallenges">Props</Link> |{" "}
 				<Link to="/statechallenges">State</Link> |{" "}
@@ -14,11 +13,9 @@ function DependChallenge() {
 				<Link to="/firestorechallenge">Firestore</Link> |{" "}
 				<Link to="/hookchallenge">Hooks</Link>
 			</nav>
-
-			<Confetti2 />
-			<DataViz />
+			<DogHook />
 		</>
 	);
 }
 
-export default DependChallenge;
+export default HookChall;

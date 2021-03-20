@@ -10,7 +10,8 @@ function APIchallenge() {
 				<Link to="/statechallenges">State</Link> |{" "}
 				<Link to="/dependencieschallenges">Dependencies</Link> |{" "}
 				<Link to="/apichallenge">API</Link> |{" "}
-				<Link to="/firestorechallenge">Firestore</Link>
+				<Link to="/firestorechallenge">Firestore</Link> |{" "}
+				<Link to="/hookchallenge">Hooks</Link>
 			</nav>
 			<h3>Challenge done in plain HTML/CSS/JS:</h3>
 			<p> See code: src/challenge/api/fetch-challenge.js</p>

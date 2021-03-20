@@ -11,7 +11,8 @@ function StateChallenges() {
 				<Link to="/statechallenges">State</Link> |{" "}
 				<Link to="/dependencieschallenges">Dependencies</Link> |{" "}
 				<Link to="/apichallenge">API</Link> |{" "}
-				<Link to="/firestorechallenge">Firestore</Link>
+				<Link to="/firestorechallenge">Firestore</Link> |{" "}
+				<Link to="/hookchallenge">Hooks</Link>
 			</nav>
 			<h2>Song Form 2</h2>
 			<SpeakForm2 />
