@@ -19,6 +19,9 @@ import APIchallenge from "./pages/sub-pages/challenges/api-challenges";
 import FireStoreDemo from "./pages/sub-pages/demos/firestore-demo";
 import FireStore from "./pages/sub-pages/challenges/firebase-challenge";
 import HookChall from "./pages/sub-pages/challenges/hook-challenge";
+import DataViz from "./pages/sub-pages/extra-credit/data-viz-page";
+import LocalStorage from "./pages/sub-pages/extra-credit/local-storage-page";
+import Animations from "./pages/sub-pages/extra-credit/animation";
 
 function App() {
 	return (
@@ -89,6 +92,15 @@ function App() {
 						<HookChall />
 					</Route>
 					{/* Extra Credit internal */}
+					<Route path="/dataviz">
+						<DataViz />
+					</Route>
+					<Route path="/localstorage">
+						<LocalStorage />
+					</Route>
+					<Route path="/animations">
+						<Animations />
+					</Route>
 				</Switch>
 				<Footer />
 			</BrowserRouter>
