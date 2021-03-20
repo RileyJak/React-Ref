@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import AnimationPractice from "../../../extra-credit/animations/practice";
 
 function Animations() {
 	return (
@@ -11,7 +12,8 @@ function Animations() {
 				<Link to="/animations">Animations</Link>
 			</nav>
 
-			<h2>Animations were added to the quiz game</h2>
+			<h2>Animations were added to the quiz game as well</h2>
+			<AnimationPractice />
 		</>
 	);
 }
