@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import LocalStore from "../../../extra-credit/local storage/local-storage";
 
 function LocalStorage() {
 	return (
@@ -10,6 +11,7 @@ function LocalStorage() {
 				<Link to="/localstorage">Local Storage</Link> |{" "}
 				<Link to="/animations">Animations</Link>
 			</nav>
+			<LocalStore />
 		</>
 	);
 }
